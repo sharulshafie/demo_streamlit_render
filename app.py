@@ -1,10 +1,8 @@
 import streamlit as st
-import psycopg2
 import pandas as pd
 from db import get_connection
 
 st.title("Hello world")
-
 
 # Initialize connection from render db
 conn = get_connection()
